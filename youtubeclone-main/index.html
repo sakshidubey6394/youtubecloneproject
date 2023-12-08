@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Youtube Clone</title>
+    
+</head>
+<body >
+   
+    <div id="loader">loader</div>
+
+    <!-- navbar section  -->
+    <nav class="flex-div">
+        <div class="nav-left  flex-div">
+            <img src="images/menu.png" alt="menu" class="menu-icon">
+            <img src="images/youtubelogo.svg" alt="logo" class="logo" >
+        </div>
+        <div class="nav-middle flex-div" >
+             <div class="search-box flex-div">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button class="search-btn" ><img src="images/search.png"></button>
+             </div>
+             <img src="images/voice-search.png" class="mic-icon" alt="voice-search">
+            </div>
+        <div class="nav-right  flex-div">
+            <img src="images/upload.png" alt="upload">
+            <img src="images/more.png" alt="more">
+            <img src="images/notification.png" alt="notify">
+            <img src="images/user.png" class="user-icon" alt="user">
+        </div>
+    </nav>
+
+    <!-- sideBar -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png" ><p>Home</p></a>
+            <a href=""><img src="images/explore.png" ><p>Explore</p></a>
+            <a href=""><img src="images/subscriprion.png" ><p>Subscription</p></a>
+            <a href=""><img src="images/library.png" ><p>Library</p></a>
+            <a href=""><img src="images/history.png" ><p>History</p></a>
+            <a href=""><img src="images/playlist.png" ><p>Playlist</p></a>
+            <a href=""><img src="images/messages.png" ><p>Messages</p></a>
+            <a href=""><img src="images/show-more.png" ><p>Show More</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/Jack.png" >Jack </a>
+            <a href=""><img src="images/simon.png" >simon </a>
+            <a href=""><img src="images/tom.png" >Tom </a>
+            <a href=""><img src="images/megan.png" >Megan </a>
+            <a href=""><img src="images/cameron.png" >Cameron </a>
+            
+        </div>
+    </div>
+
+
+    <!-----------main -------------->
+     <div class="container">
+        <div class="banner">
+            <img src="images/banner.png" >
+            <img src="images/pexels-christopher-farrugia-3581876.jpg" >
+            <img src="images/pexels-evgeny-tchebotarev-2541310.jpg" >
+            <img src="images/pexels-fwstudio-164005.jpg" >
+            <img src="images/pexels-lukas-rodriguez-3473085.jpg" >
+        </div>
+        <div class="list-container">
+            <!-- <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail1.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="play-video.html">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail2.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull;views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail3.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull;views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail4.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail5.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail6.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail7.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail8.png" class="thumbnail" >  </a>
+                
+                <div class="flex-div">
+                    <img src="images/user.jpg">
+                    <div class="vid-info">
+                        <a href="">Channel info</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k &bull; views</p>
+                    </div>
+                </div>
+            </div>-->
+        </div> 
+     </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
